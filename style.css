@@ -1,0 +1,103 @@
+header {
+  display: flex;
+  position: relative;
+  width: 1200px;
+  height: 400px;
+  background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: flex-end;
+  line-height: 1.1;
+  margin: 0 auto;
+  top: -7px;
+  
+}
+
+h1 {
+  opacity: 0.75;
+  margin-bottom: 40px;
+  font-weight: normal;
+  font-size: 2.3em
+  
+}
+
+#anakin {
+  font-size: 80px;
+}
+
+h1, blockquote {
+  font-family: 'Abril Fatface', cursive;
+  
+}
+
+p, h2, h3, ul {
+  font-family: 'Josefin Sans', sans-serif;
+ }
+
+
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h3 {
+  margin-top: 50px;
+  font-size: 1.4em;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  margin-top: 0;
+ }
+
+main {
+  width: 800px;
+  margin: 50px auto 50px;
+  line-height: 1.3;
+}
+
+.first {
+  font-size: 19px;
+}
+
+div {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 180px;
+  background-color: #404040;
+  margin: 50px 0;
+}
+
+blockquote {
+  font-size: 45px;
+  color: white;
+  }
+
+blockquote::before {
+  content: "\275D";
+  position: absolute;
+  font-size: 80px;
+  top: -10px;
+  left: 0;
+  
+}
+
+section {
+  margin: 50px 25px 0;
+}
+
+.fifth {
+  border-top: 4px solid black;
+}
+
+#lastJedi {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
